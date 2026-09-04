@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seed Health AI Health Technologies</title>
     <meta name="description" content="Artificial Intelligence Powered Microbiome Research & Probiotic Innovation">
+
+    <!-- Brand Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Open Graph / Social Media Preview Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Seed Health AI">
+    <meta property="og:description"
+        content="Artificial Intelligence Powered Microbiome Research & Probiotic Innovation">
+    <meta property="og:image" content="social-preview.png">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Seed Health AI">
+    <meta name="twitter:description"
+        content="Artificial Intelligence Powered Microbiome Research & Probiotic Innovation">
+    <meta name="twitter:image" content="social-preview.png">
+
     <link rel="stylesheet" href="style.css">
 
     <!-- Premium Typography System -->
@@ -25,7 +43,6 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="#" class="brand-logo">
-                <div class="logo-icon"></div>
                 <span class="brand-text">SEED HEALTH AI</span>
             </a>
 
@@ -38,9 +55,17 @@
             <ul class="nav-menu">
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#focus" class="nav-link">Focus</a></li>
-                <li><a href="#technology" class="nav-link">Technology</a></li>
-                <li><a href="#platform" class="nav-link">Platform</a></li>
+                <li><a href="#technology-platform" class="nav-link">Technology</a></li>
                 <li><a href="#leadership" class="nav-link">Leadership & Expertise</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="javascript:void(0)" class="nav-link" id="dropdown-toggle-btn">More <i
+                            class="fa-solid fa-chevron-down" style="font-size: 0.75rem; margin-left: 5px;"></i></a>
+                    <ul class="dropdown-menu" id="more-dropdown">
+                        <li><a href="#philosophy" class="dropdown-link">Our Research Philosophy</a></li>
+                        <li><a href="#vision" class="dropdown-link">Vision</a></li>
+                        <li><a href="#expertise" class="dropdown-link">Core Expertise</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </nav>
@@ -605,80 +630,143 @@
             </div>
         </section>
 
-        <!-- Our Research Philosophy & Vision -->
-        <section id="philosophy" class="philosophy-section section-padding">
-            <div class="container">
-                <div class="split-layout">
-                    <div class="content-side hidden-element left-slide">
-                        <h2 class="section-heading">Our Research Philosophy</h2>
-                        <div class="divider"></div>
-                        <p class="lead-text">
-                            The future of healthcare innovation will be driven by the combination of:
-                        </p>
+        <!-- Our Research Philosophy -->
+        <section id="philosophy" class="philosophy-section">
+            <video class="philosophy-bg-video" autoplay loop muted playsinline>
+                <source src="philosophy.mp4" type="video/mp4">
+            </video>
+            <div class="philosophy-overlay"></div>
 
-                        <div class="philosophy-stack">
-                            <div class="p-item glass-panel">
-                                <div class="p-icon"><i class="fa-solid fa-virus"></i></div>
-                                <div>
-                                    <h5>Biological Understanding</h5>
-                                    <p>Understanding the complex relationship between microorganisms and human health.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="p-item glass-panel">
-                                <div class="p-icon"><i class="fa-solid fa-microchip"></i></div>
-                                <div>
-                                    <h5>Artificial Intelligence</h5>
-                                    <p>Using advanced computational technology to analyze information beyond traditional
-                                        capabilities.</p>
-                                </div>
-                            </div>
-                            <div class="p-item glass-panel">
-                                <div class="p-icon"><i class="fa-solid fa-server"></i></div>
-                                <div>
-                                    <h5>Data Intelligence</h5>
-                                    <p>Transforming large-scale biological data into meaningful scientific insights.</p>
-                                </div>
-                            </div>
+            <div class="container philosophy-content-container">
+                <div class="luxury-section-header">
+                    <span class="luxury-label">Core Principles</span>
+                    <h2 class="luxury-title">Our Research<br>Philosophy</h2>
+                </div>
+
+                <p class="philosophy-lead">
+                    The future of healthcare innovation will be driven by the combination of:
+                </p>
+
+                <div class="philosophy-network">
+                    <div class="network-node">
+                        <div class="node-indicator">
+                            <span class="node-number">01</span>
+                            <div class="node-line"></div>
+                        </div>
+                        <div class="node-text">
+                            <h5>Biological Understanding</h5>
+                            <p class="original-statement">Understanding the complex relationship between microorganisms
+                                and human health.</p>
+                            <p class="expanded-explanation">By mapping the intricate systems of the microbiome, we
+                                uncover how biological information influences physiological behavior. This foundation
+                                allows us to translate complex cellular interactions into structured biological data
+                                models, providing a deeper understanding of human health.</p>
                         </div>
                     </div>
-
-                    <div class="content-side hidden-element right-slide">
-                        <h2 class="section-heading">Vision</h2>
-                        <div class="divider"></div>
-                        <div class="vision-card glass-card">
-                            <i class="fa-solid fa-eye vision-icon"></i>
-                            <p class="vision-text">
-                                Our vision is to contribute to the next generation of health science by creating
-                                intelligent research systems that connect artificial intelligence with microbiome
-                                innovation.
-                            </p>
-                            <p>
-                                Through advanced data collection, scientific research, and AI-driven analysis, we aim to
-                                support the development of more precise, effective, and personalized probiotic
-                                technologies.
-                            </p>
+                    <div class="network-node">
+                        <div class="node-indicator">
+                            <span class="node-number">02</span>
+                            <div class="node-line"></div>
+                        </div>
+                        <div class="node-text">
+                            <h5>Artificial Intelligence</h5>
+                            <p class="original-statement">Using advanced computational technology to analyze information
+                                beyond traditional capabilities.</p>
+                            <p class="expanded-explanation">Our methodology applies sophisticated biological pattern
+                                recognition to large-scale biological datasets. Through AI-driven microbiome analysis,
+                                we rapidly synthesize high-dimensional information, building advanced research
+                                prediction models designed to decode natural complexities.</p>
+                        </div>
+                    </div>
+                    <div class="network-node">
+                        <div class="node-indicator">
+                            <span class="node-number">03</span>
+                            <div class="node-line glow-stop"></div>
+                        </div>
+                        <div class="node-text">
+                            <h5>Data Intelligence</h5>
+                            <p class="original-statement">Transforming large-scale biological data into meaningful
+                                scientific insights.</p>
+                            <p class="expanded-explanation">We systematically synthesize and analyze vast amounts of
+                                microbiome data to drive evidence-based scientific research. This robust analytical
+                                structure ensures that intricate scientific research information is continuously
+                                processed, rendering complex biological relationships into clear, actionable
+                                intelligence.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Vision -->
+        <section id="vision" class="vision-section section-padding dark-bg">
+            <div class="container relative-container">
+                <div class="luxury-section-header">
+                    <span class="luxury-label">The Future</span>
+                    <h2 class="luxury-title">Vision</h2>
+                </div>
+
+                <div class="vision-manifesto">
+                    <div class="v-line-divider"></div>
+                    <p class="vision-text highlight">
+                        Our vision is to contribute to the next generation of health science by creating
+                        intelligent research systems that connect artificial intelligence with microbiome
+                        innovation.
+                    </p>
+                    <p class="vision-subtext">
+                        Through advanced data collection, scientific research, and AI-driven analysis, we aim to
+                        support the development of more precise, effective, and personalized probiotic
+                        technologies.
+                    </p>
+                </div>
+            </div>
+        </section>
+
         <!-- Core Expertise -->
-        <section id="expertise" class="expertise-section section-padding dark-bg">
-            <div class="container container-small hidden-element up-slide">
-                <h2 class="section-heading center">Core Expertise</h2>
-                <div class="divider center-div"></div>
+        <section id="expertise" class="expertise-section section-padding dark-bg"
+            style="position: relative; overflow: hidden; z-index: 1;">
+            <div class="expertise-bg-layer" style="background-image: url('expertise_bg.png');"></div>
+            <div class="expertise-overlay"></div>
+            <div class="container hidden-element up-slide" style="position: relative; z-index: 2;">
+                <div class="expertise-header-wrapper">
+                    <span class="luxury-label" style="justify-content: center;">Specialized Capabilities</span>
+                    <h2 class="expertise-cinematic-title">Core Expertise</h2>
+                    <div class="v-line-divider" style="height: 60px; margin-bottom: 2rem;"></div>
+                </div>
 
                 <div class="tags-grid">
-                    <div class="tag-glow"><span>Artificial Intelligence in Healthcare</span></div>
-                    <div class="tag-glow"><span>Microbiome Data Research</span></div>
-                    <div class="tag-glow"><span>Probiotic Development Support</span></div>
-                    <div class="tag-glow"><span>Biological Data Collection</span></div>
-                    <div class="tag-glow"><span>Research Database Architecture</span></div>
-                    <div class="tag-glow"><span>AI Model Data Preparation</span></div>
-                    <div class="tag-glow"><span>Scientific Research Coordination</span></div>
-                    <div class="tag-glow"><span>Health Technology Innovation</span></div>
+                    <div class="tag-glow" data-title="Artificial Intelligence in Healthcare"
+                        data-desc="We leverage advanced computational technology to analyze high-dimensional biological information. Our AI-driven approach goes beyond traditional capabilities to decode natural complexities and build sophisticated research prediction models.">
+                        <span>Artificial Intelligence in Healthcare</span>
+                    </div>
+                    <div class="tag-glow" data-title="Microbiome Data Research"
+                        data-desc="Our research systematically maps the intricate interactions within the microbiome. By analyzing these complex relationships, we uncover how microorganisms influence human physiological behavior and health outcomes.">
+                        <span>Microbiome Data Research</span>
+                    </div>
+                    <div class="tag-glow" data-title="Probiotic Development Support"
+                        data-desc="We synthesize massive biological datasets to support the creation of precise, effective, and personalized probiotic technologies. Our data intelligence provides evidence-based foundations for next-generation health science.">
+                        <span>Probiotic Development Support</span>
+                    </div>
+                    <div class="tag-glow" data-title="Biological Data Collection"
+                        data-desc="We systematically structure and organize vast amounts of biological information. This rigorous collection process ensures high-quality foundational data for advanced technological biological analysis.">
+                        <span>Biological Data Collection</span>
+                    </div>
+                    <div class="tag-glow" data-title="Research Database Architecture"
+                        data-desc="We construct robust analytical structures designed to manage complex biological information continuously. This intelligent architecture ensures that large-scale datasets are rapidly processed and synthesized into actionable models.">
+                        <span>Research Database Architecture</span>
+                    </div>
+                    <div class="tag-glow" data-title="AI Model Data Preparation"
+                        data-desc="Our methodology translates intricate cellular interactions into structured biological data models. By preparing high-dimensional information, we ensure our computational algorithms can perform sophisticated pattern recognition.">
+                        <span>AI Model Data Preparation</span>
+                    </div>
+                    <div class="tag-glow" data-title="Scientific Research Coordination"
+                        data-desc="We organize and synthesize advanced biological research to drive evidence-based inquiry. This coordination ensures that intricate scientific research information is systematically evaluated and transformed into meaningful insights.">
+                        <span>Scientific Research Coordination</span>
+                    </div>
+                    <div class="tag-glow" data-title="Health Technology Innovation"
+                        data-desc="Our ultimate goal is to contribute to the next generation of health science. We continuously build intelligent research systems that connect artificial intelligence directly with unprecedented microbiome innovation.">
+                        <span>Health Technology Innovation</span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -687,18 +775,26 @@
     <!-- Footer -->
     <footer>
         <div class="container footer-content">
-            <div class="footer-brand">
-                <div class="logo-icon small"></div>
-                <h4>SEED HEALTH AI</h4>
-                <p>Health Technologies</p>
-                <p class="footer-desc">Artificial Intelligence Powered Microbiome Research & Probiotic Innovation</p>
+            <div class="footer-brand"
+                style="display: flex; align-items: center; justify-content: center; margin-bottom: 3.5rem;">
+                <h4
+                    style="margin: 0; font-family: var(--font-heading); font-size: 1.6rem; letter-spacing: 4px; font-weight: 300; color: #fff;">
+                    SEED HEALTH AI</h4>
             </div>
 
-            <div class="footer-links">
-                <a href="#about">About</a>
-                <a href="#platform">Platform</a>
-                <a href="#leadership">Leadership</a>
-                <a href="#expertise">Expertise</a>
+            <div class="footer-contact-panel">
+                <div class="contact-node">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="contact-label">Electronic Mail</div>
+                    <div class="contact-value">contact@seedhealthai.com</div>
+                </div>
+                <div class="contact-divider"></div>
+                <div class="contact-node">
+                    <div class="contact-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <div class="contact-label">Global Headquarters</div>
+                    <div class="contact-value">101 Artificial Intelligence Blvd<br>Biotech Quarter, San Francisco, CA
+                    </div>
+                </div>
             </div>
 
             <div class="footer-copy">
@@ -706,6 +802,16 @@
             </div>
         </div>
     </footer>
+
+    <!-- Expertise Modal Overlay -->
+    <div id="expertise-modal" class="expertise-modal-overlay">
+        <div class="expertise-modal-content">
+            <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+            <h3 id="modal-title">Title</h3>
+            <div class="modal-line-divider"></div>
+            <p id="modal-desc">Description</p>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
