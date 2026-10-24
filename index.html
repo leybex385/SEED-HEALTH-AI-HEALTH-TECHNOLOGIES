@@ -807,32 +807,68 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <div class="footer-brand"
-                style="display: flex; align-items: center; justify-content: center; margin-bottom: 3.5rem;">
-                <h4
-                    style="margin: 0; font-family: var(--font-heading); font-size: 1.6rem; letter-spacing: 4px; font-weight: 300; color: #fff;">
-                    SEED HEALTH AI</h4>
-            </div>
-
-            <div class="footer-contact-panel">
-                <div class="contact-node">
-                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
-                    <div class="contact-label">Electronic Mail</div>
-                    <div class="contact-value">team@ysjseedhealthaius.com</div>
-                </div>
-                <div class="contact-divider"></div>
-                <div class="contact-node">
-                    <div class="contact-icon"><i class="fa-solid fa-map-location-dot"></i></div>
-                    <div class="contact-label">Branch Office</div>
-                    <div class="contact-value">2100 Abbot Kinney Blvd<br>Venice, CA 90291
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-grid">
+                <!-- Column 1: Brand, Mission & Google Map -->
+                <div class="footer-col footer-col-brand">
+                    <h3 class="footer-brand-title">SEED HEALTH AI</h3>
+                    <p class="footer-brand-desc">
+                        Innovative cross-border trade in medical technology and AI-powered microbiome research.
+                    </p>
+                    <div class="footer-hub-label">
+                        Global Logistics Hubs in Major Commercial Centers
+                    </div>
+                    <div class="footer-map-wrapper">
+                        <iframe
+                            title="Seed Health AI Location Map"
+                            src="https://maps.google.com/maps?q=2100%20Abbot%20Kinney%20Blvd%2C%20Venice%2C%20CA%2090291&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
                 </div>
+
+                <!-- Column 2: Contact Details -->
+                <div class="footer-col footer-col-contact">
+                    <h4 class="footer-section-title">CONTACT US</h4>
+                    <p class="footer-contact-intro">
+                        We invite potential clients and business partners to reach out for consultations and strategic collaborations.
+                    </p>
+                    <div class="footer-contact-items">
+                        <div class="footer-contact-row">
+                            <a href="mailto:team@ysjseedhealthai.com" class="footer-email-link">team@ysjseedhealthai.com</a>
+                        </div>
+                        <div class="footer-contact-row">
+                            <i class="fa-solid fa-location-dot contact-pin-icon"></i>
+                            <span>2100 Abbot Kinney Blvd, Venice, CA 90291, United States</span>
+                        </div>
+                        <div class="footer-contact-row">
+                            <i class="fa-solid fa-phone contact-phone-icon"></i>
+                            <a href="tel:+16462794206" class="footer-phone-link">+1 (646) 279-4206</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 3: Legal -->
+                <div class="footer-col footer-col-legal">
+                    <h4 class="footer-section-title">LEGAL</h4>
+                    <ul class="footer-legal-links">
+                        <li><a href="#privacy" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#terms" class="footer-link">Terms of Service</a></li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="footer-copy">
-                &copy; <span id="year">2026</span> Seed Health AI Health Technologies. All rights reserved.
+            <!-- Footer Bottom / Copyright -->
+            <div class="footer-bottom">
+                <p class="footer-copy">
+                    &copy; <span id="year">2026</span> Seed Health AI Health Technologies. All rights reserved.
+                </p>
             </div>
         </div>
     </footer>
