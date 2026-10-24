@@ -2858,8 +2858,7 @@ p {
   line-height: 1.5;
 }
 
-.footer-contact-row .contact-pin-icon,
-.footer-contact-row .contact-phone-icon {
+.footer-contact-row .contact-pin-icon {
   color: var(--accent-cyan);
   font-size: 1.05rem;
   width: 20px;
@@ -2868,15 +2867,13 @@ p {
   filter: drop-shadow(0 0 6px rgba(0, 240, 255, 0.4));
 }
 
-.footer-email-link,
-.footer-phone-link {
+.footer-email-link {
   color: #cbd5e1;
   text-decoration: none;
   transition: color 0.25s ease, text-shadow 0.25s ease;
 }
 
-.footer-email-link:hover,
-.footer-phone-link:hover {
+.footer-email-link:hover {
   color: var(--accent-cyan);
   text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
 }
